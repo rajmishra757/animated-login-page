@@ -59,4 +59,20 @@
   box-shadow: 1px 1px 20px 1px #373636;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.03);
+  padding: 20px;
+}
+
+#heading {
+  font: normal 25px Arno Pro Smbd Caption;
+  color: #8C8786;
+}
+
+#sub-heading {
+  font: normal 20px Arial Narrow;
+  color: #B2A7A4;
+  padding-left: 10px;
+}
+
+.form-container {
+  margin-top: 10px;
 }
