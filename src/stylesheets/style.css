@@ -42,7 +42,7 @@
 .twinkling{
   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
   z-index:1;
-  padding-top: 200px;
+  padding-top: 240px;
 
   -moz-animation:move-twink-back 200s linear infinite;
   -ms-animation:move-twink-back 200s linear infinite;
@@ -53,8 +53,8 @@
 
 .container-fluid {
   margin: auto;
-  width: 500px;
-  height: 150px;
+  width: 560px;
+  height: 110px;
   border: 1px solid #373636;
   box-shadow: 1px 1px 20px 1px #373636;
   border-radius: 20px;
@@ -74,5 +74,52 @@
 }
 
 .form-container {
-  margin-top: 10px;
+  margin: auto;
+}
+
+input {
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-top: 3px groove #4D4A49;
+  border-bottom: 2px ridge #F3EDEC;
+  box-shadow: 1px 1px 3px 0px #4D4A49 inset;
+  border-radius: 7px;
+  padding: 3px;
+  padding-left: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+input[type=text], input[type=password] {
+  background: linear-gradient(to bottom right, #A09E9E, #E8E1DF);
+}
+
+input[type=password] {
+  margin-left: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #000000;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#btn-login {
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  background-color: #5D5856;
+  border-bottom: 4px ridge #837D7B;
+}
+
+#btn-login:hover {
+  background-color: #393635;
+  color: #ADA7A6;
+  cursor: pointer;
 }
