@@ -116,10 +116,11 @@ input:focus {
 
 #btn-login {
   width: 100px;
-  height: 40px;
+  height: 42px;
   margin-left: 10px;
   background-color: #5D5856;
   border-bottom: 4px ridge #837D7B;
+  font-size: 15px;
 }
 
 #btn-login:hover {
